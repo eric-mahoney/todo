@@ -31,6 +31,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 20px 0px;
 }
 
 .info-img {
@@ -89,8 +90,16 @@
   width: 100%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+  .flex-reverse {
+    flex-direction: column-reverse !important;
+    justify-content: center;
+    align-items: center;
+  }
+
   .flex-container {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
