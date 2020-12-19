@@ -1,0 +1,96 @@
+.home-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-container {
+  height: 300px;
+  width: 300px;
+}
+
+.text-container {
+  width: 300px;
+  line-height: 2em;
+}
+
+.text-container p {
+  margin: 20px 0px;
+  color: #555555;
+}
+
+.hero-img {
+  background: url("../../assets/illustrations/add-note.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info-img {
+  background: url("../../assets/illustrations/thoughts.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.notes-img {
+  background: url("../../assets/illustrations/notes.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.get-started {
+  overflow: hidden;
+  position: relative;
+  padding: 50px;
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #406e8e;
+  color: white;
+  border-radius: 10px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+}
+
+.link-btn {
+  margin: 20px 0px;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 10px 50px;
+  background-color: #254155;
+  color: white;
+  transition: all 0.3s;
+}
+
+.link-btn:hover {
+  transform: scale(1.1);
+}
+
+.wave-container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
