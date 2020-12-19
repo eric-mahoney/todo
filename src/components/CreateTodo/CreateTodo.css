@@ -1,0 +1,10 @@
+.createTodo-container {
+  display: flex;
+  height: 30px;
+}
+
+.btn-create {
+  padding: 0px 10px;
+  background-color: #406e8e;
+  color: white;
+}
