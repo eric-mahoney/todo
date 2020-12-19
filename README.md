@@ -1,3 +1,3 @@
 # Todo
 
-Simple Todo application built using React.
+Simple Todo application built to learn React better.
